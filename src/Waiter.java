@@ -1,10 +1,8 @@
-public class Waiter extends Employee{
-    String name,sex;
-    int age,experience;
+public class Waiter {
+    String name,sex,date;
+    int age;
     double salary,hsc;
-
-    public void showEmployeeDetail(){
-        System.out.println("Waiter Details.");
-    }
+    public void detailsPrint(String name,int age, String sex, String date,double salary,double hsc){
+        System.out.println(name+""+age+""+sex+""+date+""+salary+""+hsc);
+    }//C201045
 }
-
